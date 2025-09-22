@@ -1,0 +1,708 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Jack Smith",
+      "email": "jack@example.com",
+      "password": "password123",
+      "department": "Administration",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Sarah Johnson",
+      "email": "sarah@example.com",
+      "password": "welcome123",
+      "department": "HR",
+      "role": "HR Manager"
+    },
+    {
+      "id": "3",
+      "name": "Michael Brown",
+      "email": "michael@example.com",
+      "password": "admin123",
+      "department": "IT",
+      "role": "Developer"
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "password": "test123",
+      "department": "Marketing",
+      "role": "Marketing Lead"
+    },
+    {
+      "id": "5",
+      "name": "David Wilson",
+      "email": "david@example.com",
+      "password": "user123",
+      "department": "Finance",
+      "role": "Accountant"
+    },
+    {
+      "id": "6",
+      "name": "Laura Miller",
+      "email": "laura@example.com",
+      "password": "user123",
+      "department": "Sales",
+      "role": "Sales Manager"
+    },
+    {
+      "id": "38d3",
+      "name": "vedang",
+      "email": "david@example.com",
+      "password": "12345",
+      "department": "react ",
+      "role": "user"
+    },
+    {
+      "id": "7676",
+      "name": "jay",
+      "email": "jay@gmail.com",
+      "password": "jay123",
+      "department": "react ",
+      "role": "admin"
+    },
+    {
+      "id": "e16f",
+      "name": "krish ",
+      "email": "krish@gmail.com",
+      "password": "krish@124",
+      "department": "node",
+      "role": "developer"
+    },
+    {
+      "id": "8878",
+      "name": "harsh",
+      "email": "harsh@gmail.com",
+      "password": "harsg@123",
+      "department": "flutter",
+      "role": "developer"
+    },
+    {
+      "id": "6f51",
+      "name": "ansh",
+      "email": "ansh@gmail.com",
+      "password": "ansh@124",
+      "department": "react ",
+      "role": "developer"
+    }
+  ],
+  "projects": [
+    {
+      "id": "p1_1",
+      "projectName": "Website Redesign",
+      "description": "Revamp the existing website for modern UX.",
+      "employeeId": "1"
+    },
+    {
+      "id": "p2_1",
+      "projectName": "Mobile App Development",
+      "description": "Build a cross-platform shopping app.",
+      "employeeId": "1"
+    },
+    {
+      "id": "p1_2",
+      "projectName": "Website Redesign",
+      "description": "Revamp the existing website for modern UX.",
+      "employeeId": "2"
+    },
+    {
+      "id": "p3_2",
+      "projectName": "CRM Integration",
+      "description": "Integrate CRM with existing tools.",
+      "employeeId": "2"
+    },
+    {
+      "id": "p5_2",
+      "projectName": "Data Migration",
+      "description": "Migrate old database to a new cloud system.",
+      "employeeId": "2"
+    },
+    {
+      "id": "p2_3",
+      "projectName": "Mobile App Development",
+      "description": "Build a cross-platform shopping app.",
+      "employeeId": "3"
+    },
+    {
+      "id": "p3_3",
+      "projectName": "CRM Integration",
+      "description": "Integrate CRM with existing tools.",
+      "employeeId": "3"
+    },
+    {
+      "id": "p1_4",
+      "projectName": "Website Redesign",
+      "description": "Revamp the existing website for modern UX.",
+      "employeeId": "4"
+    },
+    {
+      "id": "p5_4",
+      "projectName": "Data Migration",
+      "description": "Migrate old database to a new cloud system.",
+      "employeeId": "4"
+    },
+    {
+      "id": "p2_5",
+      "projectName": "Mobile App Development",
+      "description": "Build a cross-platform shopping app.",
+      "employeeId": "5"
+    },
+    {
+      "id": "p3_5",
+      "projectName": "CRM Integration",
+      "description": "Integrate CRM with existing tools.",
+      "employeeId": "5"
+    },
+    {
+      "id": "p5_5",
+      "projectName": "Data Migration",
+      "description": "Migrate old database to a new cloud system.",
+      "employeeId": "5"
+    },
+    {
+      "id": "p1_6",
+      "projectName": "Website Redesign",
+      "description": "Revamp the existing website for modern UX.",
+      "employeeId": "6"
+    },
+    {
+      "id": "p3_6",
+      "projectName": "CRM Integration",
+      "description": "Integrate CRM with existing tools.",
+      "employeeId": "6"
+    },
+    {
+      "id": "61e1",
+      "projectName": "HRMS",
+      "description": "make hrms ",
+      "tasks": []
+    },
+    {
+      "id": "9280",
+      "projectName": "project for harsh",
+      "description": "final harsh project",
+      "tasks": []
+    },
+    {
+      "id": "f843",
+      "projectName": "vedang project ",
+      "description": "final vedang project ",
+      "tasks": []
+    },
+    {
+      "id": "683e",
+      "projectName": "project for ansh",
+      "description": "Ansh is main project ",
+      "tasks": []
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1_p1_1",
+      "task": "Create wireframes for new layout",
+      "assignee": "1",
+      "dueDate": "2024-09-05",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p1_1",
+      "employeeId": "1"
+    },
+    {
+      "id": "t2_p1_1",
+      "task": "Research modern design trends",
+      "assignee": "1",
+      "dueDate": "2024-09-10",
+      "status": "Completed",
+      "priority": "medium",
+      "projectId": "p1_1",
+      "employeeId": "1"
+    },
+    {
+      "id": "t3_p1_1",
+      "task": "Coordinate with development team",
+      "assignee": "1",
+      "dueDate": "2024-09-15",
+      "status": "Not Started",
+      "priority": "medium",
+      "projectId": "p1_1",
+      "employeeId": "1"
+    },
+    {
+      "id": "t1_p2_1",
+      "task": "Set up development environment",
+      "assignee": "1",
+      "dueDate": "2024-09-03",
+      "status": "Completed",
+      "priority": "high",
+      "projectId": "p2_1",
+      "employeeId": "1"
+    },
+    {
+      "id": "t2_p2_1",
+      "task": "Create project timeline",
+      "assignee": "1",
+      "dueDate": "2024-09-08",
+      "status": "In Progress",
+      "priority": "medium",
+      "projectId": "p2_1",
+      "employeeId": "1"
+    },
+    {
+      "id": "t3_p2_1",
+      "task": "Coordinate with design team",
+      "assignee": "1",
+      "dueDate": "2024-09-12",
+      "status": "Not Started",
+      "priority": "low",
+      "projectId": "p2_1",
+      "employeeId": "1"
+    },
+    {
+      "id": "t3_p1_2",
+      "task": "Coordinate with hiring managers",
+      "assignee": "2",
+      "dueDate": "2024-09-20",
+      "status": "Pending",
+      "priority": "medium",
+      "projectId": "p1_2",
+      "employeeId": "2"
+    },
+    {
+      "id": "t1_p3_2",
+      "task": "Map HR processes to CRM",
+      "assignee": "2",
+      "dueDate": "2024-09-09",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p3_2",
+      "employeeId": "2"
+    },
+    {
+      "id": "t2_p3_2",
+      "task": "Train HR team on new system",
+      "assignee": "2",
+      "dueDate": "2024-09-16",
+      "status": "Not Started",
+      "priority": "medium",
+      "projectId": "p3_2",
+      "employeeId": "2"
+    },
+    {
+      "id": "t3_p3_2",
+      "task": "Create user documentation",
+      "assignee": "2",
+      "dueDate": "2024-09-23",
+      "status": "Not Started",
+      "priority": "low",
+      "projectId": "p3_2",
+      "employeeId": "2"
+    },
+    {
+      "id": "t1_p5_2",
+      "task": "Backup employee records",
+      "assignee": "2",
+      "dueDate": "2024-09-05",
+      "status": "Completed",
+      "priority": "high",
+      "projectId": "p5_2",
+      "employeeId": "2"
+    },
+    {
+      "id": "t2_p5_2",
+      "task": "Verify data integrity",
+      "assignee": "2",
+      "dueDate": "2024-09-12",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p5_2",
+      "employeeId": "2"
+    },
+    {
+      "id": "t3_p5_2",
+      "task": "Test new system access",
+      "assignee": "2",
+      "dueDate": "2024-09-19",
+      "status": "Pending",
+      "priority": "medium",
+      "projectId": "p5_2",
+      "employeeId": "2"
+    },
+    {
+      "id": "t1_p2_3",
+      "task": "Develop user authentication",
+      "assignee": "3",
+      "dueDate": "2024-09-06",
+      "status": "Completed",
+      "priority": "high",
+      "projectId": "p2_3",
+      "employeeId": "3"
+    },
+    {
+      "id": "t2_p2_3",
+      "task": "Implement shopping cart functionality",
+      "assignee": "3",
+      "dueDate": "2024-09-13",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p2_3",
+      "employeeId": "3"
+    },
+    {
+      "id": "t3_p2_3",
+      "task": "Write unit tests",
+      "assignee": "3",
+      "dueDate": "2024-09-20",
+      "status": "Not Started",
+      "priority": "medium",
+      "projectId": "p2_3",
+      "employeeId": "3"
+    },
+    {
+      "id": "t2_p3_3",
+      "task": "Implement data synchronization",
+      "assignee": "3",
+      "dueDate": "2024-09-15",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p3_3",
+      "employeeId": "3"
+    },
+    {
+      "id": "t3_p3_3",
+      "task": "Create error handling system",
+      "assignee": "3",
+      "dueDate": "2024-09-22",
+      "status": "Not Started",
+      "priority": "medium",
+      "projectId": "p3_3",
+      "employeeId": "3"
+    },
+    {
+      "id": "t3_p1_4",
+      "task": "Optimize SEO elements",
+      "assignee": "4",
+      "dueDate": "2024-09-18",
+      "status": "Pending",
+      "priority": "medium",
+      "projectId": "p1_4",
+      "employeeId": "4"
+    },
+    {
+      "id": "t1_p5_4",
+      "task": "Analyze marketing analytics data",
+      "assignee": "4",
+      "dueDate": "2024-09-07",
+      "status": "Completed",
+      "priority": "medium",
+      "projectId": "p5_4",
+      "employeeId": "4"
+    },
+    {
+      "id": "t2_p5_4",
+      "task": "Migrate customer segmentation data",
+      "assignee": "4",
+      "dueDate": "2024-09-14",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p5_4",
+      "employeeId": "4"
+    },
+    {
+      "id": "t3_p5_4",
+      "task": "Verify campaign data integrity",
+      "assignee": "4",
+      "dueDate": "2024-09-21",
+      "status": "Not Started",
+      "priority": "medium",
+      "projectId": "p5_4",
+      "employeeId": "4"
+    },
+    {
+      "id": "t1_p2_5",
+      "task": "Set up payment processing system",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-05",
+      "status": "Completed",
+      "priority": "high",
+      "projectId": "p2_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t2_p2_5",
+      "task": "Implement financial reporting",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-12",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p2_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t3_p2_5",
+      "task": "Test transaction security",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-19",
+      "status": "Not Started",
+      "priority": "medium",
+      "projectId": "p2_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t1_p3_5",
+      "task": "Integrate billing systems",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-08",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p3_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t2_p3_5",
+      "task": "Set up financial dashboards",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-15",
+      "status": "Pending",
+      "priority": "medium",
+      "projectId": "p3_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t3_p3_5",
+      "task": "Create invoice templates",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-22",
+      "status": "Not Started",
+      "priority": "low",
+      "projectId": "p3_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t1_p5_5",
+      "task": "Backup financial records",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-06",
+      "status": "Completed",
+      "priority": "high",
+      "projectId": "p5_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t2_p5_5",
+      "task": "Migrate accounting data",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-13",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p5_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t3_p5_5",
+      "task": "Verify tax compliance data",
+      "assignee": "David Wilson",
+      "dueDate": "2024-09-20",
+      "status": "Pending",
+      "priority": "medium",
+      "projectId": "p5_5",
+      "employeeId": "5"
+    },
+    {
+      "id": "t2_p1_6",
+      "task": "Optimize sales funnel pages",
+      "assignee": "6",
+      "dueDate": "2024-09-12",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p1_6",
+      "employeeId": "6"
+    },
+    {
+      "id": "t3_p1_6",
+      "task": "Test contact forms",
+      "assignee": "6",
+      "dueDate": "2024-09-19",
+      "status": "Pending",
+      "priority": "medium",
+      "projectId": "p1_6",
+      "employeeId": "6"
+    },
+    {
+      "id": "t1_p3_6",
+      "task": "Map sales processes to CRM",
+      "assignee": "6",
+      "dueDate": "2024-09-08",
+      "status": "Completed",
+      "priority": "high",
+      "projectId": "p3_6",
+      "employeeId": "6"
+    },
+    {
+      "id": "t2_p3_6",
+      "task": "Train sales team on new system",
+      "assignee": "6",
+      "dueDate": "2024-09-15",
+      "status": "In Progress",
+      "priority": "high",
+      "projectId": "p3_6",
+      "employeeId": "6"
+    },
+    {
+      "id": "t3_p3_6",
+      "task": "Create sales reporting dashboard",
+      "assignee": "6",
+      "dueDate": "2024-09-22",
+      "status": "Not Started",
+      "priority": "medium",
+      "projectId": "p3_6",
+      "employeeId": "6"
+    },
+    {
+      "id": "2b0d",
+      "task": "main demo",
+      "assignee": "1",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2025-09-18",
+      "projectId": "61e1"
+    },
+    {
+      "id": "9743",
+      "task": "OKAY",
+      "assignee": "1",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-10-04",
+      "projectId": "61e1"
+    },
+    {
+      "id": "05b7",
+      "task": "qwert",
+      "assignee": "1",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-10-03",
+      "projectId": "61e1"
+    },
+    {
+      "id": "beb6",
+      "task": "OKAY",
+      "assignee": "1",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-09-13",
+      "projectId": "61e1"
+    },
+    {
+      "id": "054d",
+      "task": "work on design",
+      "assignee": "e16f",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2025-09-25",
+      "projectId": "61e1"
+    },
+    {
+      "id": "c6ed",
+      "task": "OKAY",
+      "assignee": "2",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2025-10-04",
+      "projectId": "61e1"
+    },
+    {
+      "id": "f26a",
+      "task": "final done code ",
+      "assignee": "2",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-09-24",
+      "projectId": "61e1"
+    },
+    {
+      "id": "ec74",
+      "task": "vedang",
+      "assignee": "2",
+      "status": "in-progress",
+      "priority": "high",
+      "dueDate": "2025-09-21",
+      "projectId": "p1_1"
+    },
+    {
+      "id": "503e",
+      "task": "final vedang ",
+      "assignee": "1",
+      "status": "in-progress",
+      "priority": "low",
+      "dueDate": "2025-09-25",
+      "projectId": "61e1"
+    },
+    {
+      "id": "bb13",
+      "task": "main ",
+      "assignee": "2",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-10-05",
+      "projectId": "p2_1"
+    },
+    {
+      "id": "cb23",
+      "task": "main",
+      "assignee": "2",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-10-01",
+      "projectId": "61e1"
+    },
+    {
+      "id": "5f5c",
+      "task": "final harsh",
+      "assignee": "8878",
+      "status": "in-progress",
+      "priority": "medium",
+      "dueDate": "2025-09-23",
+      "projectId": "9280"
+    },
+    {
+      "id": "09e4",
+      "task": "xzcZXC",
+      "assignee": "8878",
+      "status": "completed",
+      "priority": "medium",
+      "dueDate": "2025-09-26",
+      "projectId": "9280"
+    },
+    {
+      "id": "d007",
+      "task": "final",
+      "assignee": "8878",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-09-19",
+      "projectId": "f843"
+    },
+    {
+      "id": "bd46",
+      "task": "safdsadas",
+      "assignee": "6f51",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-10-04",
+      "projectId": "683e"
+    },
+    {
+      "id": "4598",
+      "task": "main demo",
+      "assignee": "6f51",
+      "status": "not started",
+      "priority": "medium",
+      "dueDate": "2025-10-03",
+      "projectId": "683e"
+    }
+  ]
+}
